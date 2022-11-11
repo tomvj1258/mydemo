@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(173, 245, 247);
+}
+.photo
+    {
+        border-radius: 12px;
+       text-align: left;
+        border-width: 10px;
+        padding: 5px;
+        font-size: 20px;
+}
+.photo,p
+    {
+        font-family: 'Courier New', Courier, monospace;
+    }
+img{
+    border-radius: 500px;
+    padding: 25px;
+    border-width: 0px;
+    border-style: none;
+    height: 250px;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+span{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:chocolate;
+    font-size: 25px;
+}hr{
+    width: 5%;
+    border-style: dotted none none;
+    border-width: 8px;
+    border-color: darkred;  
+}
+.study {
+    text-align:center;
+    padding: 10px;
+}
+.contact
+    {
+        margin-left: 600px;
+        /* border: 2px solid; */
+        border-radius: 5px;
+        
+    }
+button{
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+    background-color: brown;
+    text-align: center;
+    border: 5px solid grey;
+    border-radius: 100px;
+    border-style: double;
+    width: 150px;
+    display: inline;
+    text-decoration: underline;
+    /* padding: 15px, 40px;; */
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+a{
+    color: black;
+    
+}
+a:hover{
+    color: white;
+    font-size: 20px;
+}
+.div1:hover, .div2:hover,.div3:hover, .div4:hover
+{
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: wheat;
+    text-shadow: 1px 1px black;
+}
+h2 {
+    text-align: center;
+}
